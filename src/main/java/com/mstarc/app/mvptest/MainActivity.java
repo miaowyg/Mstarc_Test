@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements IView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         assignViews();
+        //test ssh commit
         mPresenter = new Presenter(this);
         btnA.setOnClickListener(new View.OnClickListener() {
             @Override
